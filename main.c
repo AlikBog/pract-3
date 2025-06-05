@@ -32,7 +32,7 @@ void send_image(int client_fd, const char* message) {
         "HTTP/1.1 200 OK\r\n"
         "Content-Type: text/html\r\n\r\n"
         "<html><body>"
-        "<h1>%s</h1>"
+        "<h1>Bogosyan Alik Albertovich KKSO-26-24</h1>"
         "<img src='data:image/png;base64,", message);
 
     send(client_fd, header, strlen(header), 0);
